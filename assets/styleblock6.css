@@ -1,0 +1,129 @@
+.footer {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1920px;
+  width: 100%;
+  background-color: #232323;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer__main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 120px;
+  padding-bottom: 52px;
+}
+
+.footer__main__title {
+  font-size: 24px;
+  letter-spacing: 3px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Josefin Sans";
+  text-align: center;
+}
+
+.footer__main__subtitle {
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  text-align: center;
+  display: block;
+  padding-top: 16px;
+  padding-bottom: 30px;
+}
+
+.footer__main__flex {
+  max-width: 170px;
+  width: 100%;
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__main__icon {
+  width: 18px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.footer__main .icon-1:hover {
+  background-image: url(/img/facebook.svg);
+}
+
+.footer__main .icon-1 {
+  background-image: url(/img/facebookwhite.svg);
+}
+
+.footer__main .icon-2:hover {
+  background-image: url(/img/twitter.svg);
+}
+
+.footer__main .icon-2 {
+  background-image: url(/img/twitterwhite.svg);
+}
+
+.footer__main .icon-3:hover {
+  background-image: url(/img/linkedin.svg);
+}
+
+.footer__main .icon-3 {
+  background-image: url(/img/linkedinwhite.svg);
+}
+
+.footer__main .icon-4:hover {
+  background-image: url(/img/youtube.svg);
+}
+
+.footer__main .icon-4 {
+  background-image: url(/img/youtubewhite.svg);
+}
+
+.footer__main .icon-5:hover {
+  background-image: url(/img/pinterest.svg);
+}
+
+.footer__main .icon-5 {
+  background-image: url(/img/pinterestwhite.svg);
+}
+
+body {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+/*# sourceMappingURL=styleblock6.css.map */

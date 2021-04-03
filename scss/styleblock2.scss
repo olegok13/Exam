@@ -1,0 +1,139 @@
+.description {
+  box-sizing: border-box;
+  height: 820px;
+  max-width: 1920px;
+  width: 100%;
+  background: url(/img/block2.png);
+  background-position: center;
+  background-size: cover;
+
+  &__main {
+    box-sizing: border-box;
+    max-width: 1110px;
+    width: 100%;
+    height: 740px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    height: 730px;
+    max-width: 540px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 205px;
+
+    &__text {
+      font-size: 36px;
+      line-height: 26px;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Aleo", "sans-serif";
+      margin-bottom: 69px;
+    }
+    &__subtitle {
+      width: 539px;
+      height: 143px;
+      font-size: 16px;
+      letter-spacing: 2px;
+      line-height: 26px;
+      color: #e8e8e8;
+      font-family: "Josefin Sans", "sans-serif";
+    }
+  }
+
+  &__photo {
+    height: 730px;
+    max-width: 540px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 120px;
+    padding-left: 65px;
+    padding-bottom: 120px;
+  }
+
+  .send {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 26px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Aleo", "sans-serif";
+    width: 225px;
+    height: 60px;
+    background: url(/img/button.png);
+    outline: 0;
+    margin-top: 50px;
+    border: 0;
+  }
+
+  &__photo__second {
+    margin-left: 125px;
+  }
+}
+
+.functional {
+  box-sizing: border-box;
+
+  max-width: 1920px;
+  width: 100%;
+  background-color: #333333;
+
+  &__main {
+    box-sizing: border-box;
+    max-width: 1110px;
+    width: 100%;
+
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 69px;
+    padding-right: 66px;
+
+    &__border {
+      width: 738px;
+      height: 92px;
+      position: absolute;
+      top: 5px;
+      left: 182px;
+    }
+
+    &__subtitle {
+      font-size: 36px;
+      line-height: 26px;
+      color: #e8e8e8;
+      font-weight: 400;
+      font-family: "Aleo", "sans-serif";
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    &__search {
+      padding-top: 100px;
+      padding-bottom: 112px;
+      width: 100%;
+      max-width: 217px;
+    }
+
+    &__select {
+      padding-top: 100px;
+      padding-bottom: 112px;
+      width: 100%;
+      max-width: 217px;
+    }
+    &__enjoy {
+      padding-top: 100px;
+      padding-bottom: 112px;
+      width: 100%;
+      max-width: 217px;
+
+      &__logo {
+        display: block;
+        margin: 0 auto;
+      }
+    }
+  }
+}

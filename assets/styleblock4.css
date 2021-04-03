@@ -1,0 +1,75 @@
+.conteiner2 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1920px;
+  width: 100%;
+  background: url(/img/block4spain.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.conteiner2__depiction {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 230px;
+  padding-bottom: 100px;
+}
+
+.conteiner2__depiction .send {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Aleo", "sans-serif";
+  width: 225px;
+  height: 60px;
+  background: url(/img/button.png);
+  outline: 0;
+  margin-top: 50px;
+  border: 0;
+}
+
+.conteiner2__depiction__title {
+  max-width: 541px;
+  width: 100%;
+  padding-top: 49px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  background: url(/img/opasiti.png);
+  background-position: center;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-left: 570px;
+}
+
+.conteiner2__depiction__title-subtitle {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 26px;
+  color: #e8e8e8;
+  font-family: "Josefin Sans", "sans-serif";
+}
+
+.conteiner2__depiction__title-subtitle2 {
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+  font-family: "Josefin Sans", "sans-serif";
+  margin-top: 30px;
+  margin-bottom: 27px;
+}
+
+.conteiner2__depiction__title-text {
+  width: 479px;
+  height: 65px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #e8e8e8;
+  font-family: "Josefin Sans", "sans-serif";
+}
+/*# sourceMappingURL=styleblock4.css.map */
