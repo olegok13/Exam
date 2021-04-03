@@ -1,0 +1,76 @@
+.biograph {
+  box-sizing: border-box;
+  max-width: 1920px;
+  width: 100%;
+  background: url(/img/block5.png);
+  background-position: center;
+  background-size: cover;
+  &__main {
+    box-sizing: border-box;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 118px;
+    padding-bottom: 200px;
+
+    &__picture__photo {
+      float: left;
+    }
+    &__general {
+      font-size: 36px;
+      line-height: 26px;
+      color: #ffffff;
+      font-weight: 400;
+      font-family: "Aleo", "sans-serif";
+      text-align: center;
+    }
+
+    &__flex {
+      max-width: 1110px;
+      width: 100%;
+      display: flex;
+      box-sizing: border-box;
+      padding-top: 100px;
+    }
+
+    // &__picture {
+    //   width: 445px;
+    //   height: 284px;
+    //   background-color: blue;
+    // }
+
+    &__man {
+      max-width: 665px;
+      width: 100%;
+      background-color: #333333;
+      padding-left: 60px;
+      padding-top: 46px;
+      padding-bottom: 46px;
+      padding-right: 50px;
+      float: right;
+
+      &__title {
+        font-size: 20px;
+        line-height: 26px;
+        color: #fefefe;
+        font-family: "Josefin Sans", "sans-serif";
+        padding-bottom: 32px;
+      }
+
+      &__subtitle {
+        font-size: 16px;
+        line-height: 21px;
+        color: #e8e8e8;
+        font-family: "Josefin Sans", "sans-serif";
+        .one{
+            font-size: 38px;
+            line-height: 26px;
+            color: #5474fd;
+            font-family: "Josefin Sans", "sans-serif";;
+
+
+        }
+      }
+    }
+  }
+}
